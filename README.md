@@ -43,7 +43,7 @@ Write a function that takes in an integer and returns an array containing two in
 noSeven(70)=[50,20]//50+20 is 70
 noSeven(717)=[506,211]//506+211 is 717
 
-==Note== there are multiple solutions/approaches to solving this. I will be grading based on cleanliness of code, 
+**Note** there are multiple solutions/approaches to solving this. I will be grading based on cleanliness of code, 
 speed of execution as compared to my solution and of course correctness of solution.
 My test cases would be large integers which would highlight differences in performance. So ensure to put some 
 thought into your solution.
@@ -56,7 +56,7 @@ This operation is carried out by substituting vowels in this order 'a' 'i' 'y' '
 cyclically, while maintaining its case (i.e., lower or upper).
 Similarly, the consonants are substituted in the sequence 
 'b' 'k' 'x' 'z' 'n' 'h' 'd' 'c' 'w' 'g' 'p' 'v' 'j' 'q' 't' 's' 'r' 'l' 'm' 'f' ten steps forward cyclically. 
-==Note:== This works the same way when decoding.
+**Note**: This works the same way when decoding.
 Task: 
 Write the function Akin would use to code and decode his language before he crams it. 
 It would take a string as input and return a string as output
