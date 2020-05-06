@@ -1,4 +1,4 @@
-# 30 DAYS OF CODE 
+# 30 DAYS OF CODE (Backend Track)
 
 
 ## DAY 1
@@ -17,6 +17,36 @@ Write a function that takes in two integer parameters. The first parameter is th
 #### Example:
 **myPackaging(5,22)===’00022’** 
 
+## Day 4: (Optimus) Prime Time
+There is an urgent need for prime numbers. Write a function that 
+takes in an integer and returns an array containing all the prime 
+numbers between 1 and the given input. Algorithmic efficiency(lower time of computation)
+is needed for full points.
+### Example:
+ OptimusPrime(11)===[2, 3, 5, 7, 11]
+
+## Day 5: NO_7
+
+It is 2006, and you are using a nokia 3310; space impact is still the best game in the world.
+ Mid game, your mum asks you to text(SMS not whatsapp for some of you kids) a long string of numbers 
+ to you dad(I don’t know why she would send numbers either) on her behalf since the battery to her 
+ phone is low. Normally, this would have been fine. But there is one problem. Your button “7” is not
+  working, and there are a bunch of “7” all over this given number. But there is a solution.
+   You can just send him a text with two different sets of numbers both lacking 7s that he can add 
+   together himself(Bomblocat can’t you call?). 
+
+Task:
+
+Write a function that takes in an integer and returns an array containing two integers that when added
+ together gives the number your mum asked you to text.
+### Example:
+noSeven(70)=[50,20]//50+20 is 70
+noSeven(717)=[506,211]//506+211 is 717
+
+==Note== there are multiple solutions/approaches to solving this. I will be grading based on cleanliness of code, 
+speed of execution as compared to my solution and of course correctness of solution.
+My test cases would be large integers which would highlight differences in performance. So ensure to put some 
+thought into your solution.
 
 
 ### How to run my solutions
