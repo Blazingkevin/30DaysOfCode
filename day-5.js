@@ -1,6 +1,6 @@
 // 
 const noSeven = ( n ) => {
-    //since my button 7 is not working, i will put all the burden on button "1" and "6" and "0"
+    //since my button 7 is not working, i will put all the burden on button "1", "6" and "0"
     // To do this, split n into array of strings...create the exact array again but the only difference
     // will be that wherever there is 7, replace it with "1"...making a number from this new array of strings 
     // will produce n with all 7 in it replaced with 1
