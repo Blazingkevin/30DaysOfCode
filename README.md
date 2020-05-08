@@ -66,6 +66,49 @@ Atongue(“As a boss, I refuse to speak the tongue of Mortal Men”)===”Eh e p
 Try reading it outloud...It does sound cool
 
 
+## Day 7: Expense Report
+
+It is the first Saturday after the lockdown was eased and there is a need to visit the market to get some items. You have a list on which the items to be
+ bought are written on. The list is in the form of a string and would contain alphanumeric characters as such:
+"1000.00
+1 Market 125.45
+2 Hardware 34.95
+3 Video 7.45
+4 Book 14.32
+5 Gasoline 16.10"
+The first line shows the original balance. Each other line gives information: item number, item, cost.
+There is one problem though, you have no intention of risking your life. The only option is to send a neighbor who charges 50 for the errand.
+
+Task:
+Create a simple expense report by following the steps below.
+First you have to clean the lines keeping only letters, digits, dots.
+Secondly, add the neighbors fee as an expense. Then return a report as a string replacing all spaces with underscores.
+
+"Original_Balance:_1000.00
+1_Market_125.45_Balance_874.55
+2_Hardware_34.95_Balance_839.60
+3_Video_7.45_Balance_832.15
+4_Book_14.32_Balance_817.83
+5_Gasoline_16.10_Balance_801.73
+6_Neighbor_50.00_Balance_751.73
+Total_expense__248.27
+Average_expense__41.38"
+
+On each line of the report you have to add the new balance and then in the last two lines the total expense and the average expense.
+**NOTE**:THE REPORT IS A SINGLE STRING.
+
+
+## Day 8: Bit calculator.
+Write a function that takes two input binary numbers in form of a string and returns the decimal equivalent.
+##### Example:
+Bcalculator("10","10")===4
+Bcalculator("101" ,"10")===7
+
+Do not use inbuilt math functions apart from the following excemptions: pow, round, random for javascript and their equivalent in other languages.
+ 
+
+
+
 ### How to run my solutions
 * clone the repo
 * Run **node day-x** (where x is the integer representing the day associated with a given task)
