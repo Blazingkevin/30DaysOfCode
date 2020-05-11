@@ -106,6 +106,20 @@ Bcalculator("101" ,"10")===7
 
 Do not use inbuilt math functions apart from the following excemptions: pow, round, random for javascript and their equivalent in other languages.
  
+## Day 9: Na-Ru-To
+Write a function that takes in an integer and returns an array with elements described below:
+For every number between 1 and the input argument included, check if the number is divisble by 2,3 or 5. If the number is divisible by 2, the number is replaced by Na. if the number is divisible by 3, it is replaced by Ru. If the number is divisble by 5, it is replaced by To. Numbers that are divissible by
+more than one of these numbers are replaced by the individual syllables seperated by hyphen. eg 6 is replaced by "Na-Ru", 10 is replaced by "Na-To". 30 is replaced by "Na-Ru-To". Numbers that are not divisible by these numbers remain as is. The output is an array with arrangement of the replacement elements maintaining their original numerical order. 1 is included
+##### Example:
+naruto(10) returns [1,"Na","Ru","Na","To","Na-Ru",7,"Na","Ru","Na-To"]
+
+## Day 10: Simple Signup validator
+Write a function that takes in 2 strings. The first one is the email address, the second is the password and returns an object specified below.
+Without using regex, verify that the email address is valid. If valid, create an object with property "email" and assign as true else, assign as false.
+For the password verify that it has at least one Uppercase letter, at least one lowercase letter, at least one alphanumeric character, at least one number
+and at least 8 character long. If the password is valid, let the object have property "password" assigned to true else, false.
+##### Example:
+validate("akinwandeakiboluwarin@gmail.com","YOucan'tgetmyPassword1") returns {email:true , password:true}
 
 
 
